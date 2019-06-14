@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         My name is Vivek Kumar pandey
+         My name is Vivek Kumar pandey and Pomod Kumar Pandey
 
         </a>
       </header>
