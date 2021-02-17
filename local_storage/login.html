@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form onsubmit="check()"  action="todo.html" method="get" target="_blank">
+              <input type="email" name="email"  id="user_email"placeholder="Valid Email Address" required><br>
+              <input type="password" name="pwd" id="user_pwd" placeholder="Password" required><br>
+              <button type="submit" >
+                Login
+              </button>
+            </form>
+           <script>
+               
+               
+               function check(){
+                            var stored_email = localStorage.getItem('email');
+                            var stored_pwd = localStorage.getItem('pwd'); 
+
+                            var user_email = document.getElementById('user_email');
+                            var user_pwd = document.getElementById('user_pwd'); 
+
+                   if(user_email.value != stored_email || user_pwd.value != stored_pwd){
+                   alert('Error');
+                   }
+                
+               else
+                   alert('You are logged in');
+               
+                }
+           </script>
+</body>
+</html>

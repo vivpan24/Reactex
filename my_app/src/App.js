@@ -16,8 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         My name is Vivek Kumar pandey and Pomod Kumar Pandey
-
+          Learn React
         </a>
       </header>
     </div>
